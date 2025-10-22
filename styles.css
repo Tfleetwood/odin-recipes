@@ -1,0 +1,43 @@
+body{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.intro{
+    margin: 24px auto 8px;
+    padding: 340px;
+    padding-bottom: 0;
+    padding-top: 0px;
+}
+
+
+.intro img{
+    display: inline;
+    border-radius: 100%;
+}
+
+.recipes{
+    max-width: 1200px;
+    margin: 32px auto 64px;
+    padding: 0 16px;
+}
+
+.recipe{
+    display: inline-block;
+    vertical-align: top;
+    width: 370px;
+    margin: 0 12px 24px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 2px solid#444;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 12px #333;
+}
+.recipe img{
+    max-width: 100%;
+}
